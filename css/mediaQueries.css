@@ -1,0 +1,338 @@
+@media (min-width: 800px) and (max-width: 1300px) {
+	h2 {
+		font-size: 22px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 16px;
+	}
+	h5 {
+		font-size: 16px;
+	}
+	p {
+		font-size: 16px;
+	}
+	span {
+		font-size: 14px;
+	}
+
+	a {
+		font-size: 14px;
+	}
+
+	header {
+		grid-template-columns: 200px 1fr 200px;
+		grid-gap: 0px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.headerLogoWrapper {
+		height: 100px;
+		width: auto;
+		grid-row: 1;
+	}
+
+	.headeMenuTagsWrapper,
+	.headerSearchWrapper {
+		display: none;
+	}
+
+	.atendimentoBtnWrapper {
+		grid-column: 2 / 3;
+		grid-row: 1;
+		padding: 5px;
+	}
+
+	.hamburguerMenu {
+		display: block;
+		justify-self: center;
+		grid-column: -2 / -1;
+		grid-row: 1;
+	}
+
+	.heroSection {
+		grid-template-columns: 1fr;
+		grid-gap: 0;
+	}
+
+	.heroNewsBlocksWrapper {
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 30px;
+		padding: 30px;
+	}
+
+	.maisLidasWrapper {
+		grid-template-columns: 1fr;
+	}
+
+	.maisLidasImgsWrapper {
+		grid-row: 2;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 30px;
+		margin-bottom: 30px;
+	}
+
+	.maisNoticiasWrapper {
+		grid-template-columns: 1fr;
+	}
+
+	.maisNoticiasTextosWrapper {
+		margin-top: 30px;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.mobileMenu,
+	.mobileMenuSearchBar {
+		display: flex;
+	}
+
+	.mobileMenuTagsWrapper {
+		display: grid;
+	}
+
+	.mobileMenu .headerLogoWrapper {
+		margin-top: 30px;
+	}
+
+	.releaseTextWrapper {
+		margin-top: 0;
+	}
+
+	.releaseTitleWrapper h1 {
+		font-size: 27px;
+	}
+
+	.releaseTitleWrapper p {
+		font-size: 18px;
+	}
+
+	.releaseContent {
+		max-width: 900px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 799px) {
+	h2 {
+		font-size: 22px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 16px;
+	}
+	h5 {
+		font-size: 16px;
+	}
+	p {
+		font-size: 16px;
+	}
+	span {
+		font-size: 14px;
+	}
+
+	a {
+		font-size: 14px;
+	}
+
+	header {
+		grid-template-rows: auto;
+		grid-template-columns: 100px 1fr auto;
+		grid-gap: 20px;
+		padding: 10px 20px 20px 10px;
+	}
+
+	.headerLogoWrapper {
+		height: 100px;
+		width: auto;
+		grid-row: 1;
+	}
+
+	.headeMenuTagsWrapper,
+	.headerSearchWrapper {
+		display: none;
+	}
+
+	.atendimentoBtnWrapper {
+		grid-column: 2 / 3;
+		grid-row: 1;
+		padding: 5px;
+	}
+
+	.hamburguerMenu {
+		display: block;
+		justify-self: center;
+		grid-column: -2 / -1;
+		grid-row: 1;
+	}
+
+	.heroSection {
+		grid-template-columns: 1fr;
+		grid-gap: 0;
+		width: 100%;
+	}
+
+	.heroSliderWrapper {
+		width: 100vw;
+	}
+
+	.heroNewsBlocksWrapper {
+		grid-template-columns: 1fr;
+		grid-gap: 30px;
+		padding: 30px 20px;
+	}
+
+	.maisLidasWrapper,
+	.maisLidasTextoWrapper,
+	.maisNoticiasWrapper,
+	.maisNoticiasTextosWrapper,
+	.maisNoticiasImgsWrapper,
+	.heroNewsBlocksWrapper,
+	footer {
+		grid-template-columns: 1fr;
+	}
+
+	.maisLidasWrapper,
+	.maisNoticiasWrapper {
+		padding: 20px;
+	}
+
+	.maisLidasImgsWrapper {
+		grid-row: 2;
+		grid-template-columns: 1fr;
+		grid-gap: 30px;
+		margin-bottom: 30px;
+	}
+
+	.maisNoticiasTextosWrapper {
+		margin-top: 30px;
+	}
+
+	.mobileMenu,
+	.mobileMenuSearchBar {
+		display: flex;
+	}
+
+	.mobileMenuSearchBar {
+		width: 80%;
+		align-self: center;
+	}
+
+	.mobileMenuTagsWrapper {
+		display: grid;
+	}
+
+	.slideUnitImgWrapper,
+	.slideArrowsBtnsWrapper {
+		height: 300px;
+	}
+
+	footer {
+		grid-row-gap: 30px;
+	}
+
+	.footerLinksWrapper {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 30px;
+	}
+
+	.footerSocialWrapper {
+		grid-row-gap: 30px;
+	}
+
+	.mobileMenu .headerLogoWrapper {
+		margin-top: 30px;
+	}
+
+	.footerSocialContatoWrapper span {
+		font-size: 14px;
+	}
+
+	.releaseTextWrapper {
+		margin-top: 0;
+	}
+
+	.releaseTitleWrapper {
+		grid-template-columns: 1fr;
+		grid-gap: 20px;
+		padding-bottom: 20px;
+	}
+
+	.releaseTitleWrapper h1 {
+		font-size: 18px;
+	}
+
+	.releaseTitleWrapper p,
+	.releaseContent p {
+		font-size: 16px;
+	}
+
+	.quotationNotes span {
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.releaseSocialShare {
+		grid-column: 1 / -1;
+		grid-row: 3;
+		position: relative;
+		margin: 0 auto;
+		right: 0;
+		left: 0;
+		top: 0;
+		bottom: 0;
+	}
+
+	.releaseTitleWrapper .tagLineWrapper {
+		position: relative;
+		grid-column: 1 / -1;
+		grid-row: 4;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: 0 auto;
+	}
+
+	.releaseHeroImg {
+		height: 300px;
+	}
+
+	.releaseImg {
+		height: 230px;
+		width: 100%;
+	}
+}
